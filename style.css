@@ -1,0 +1,35 @@
+a.button28 {
+    font-weight: 700;
+    color: rgb(5, 5, 55);
+    text-decoration: none;
+}
+
+a.button28:hover:not(:active) {
+    background: linear-gradient(rgb(126, 126, 134), rgb(70, 71, 76)) rgb(126, 126, 134);
+}
+
+a.button28:active {
+    box-shadow: 0 0 1px rgba(0, 0, 0, .5) inset, 0 2px 3px rgba(0, 0, 0, .5) inset, 0 1px 1px rgba(255, 255, 255, .1);
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: linear-gradient(rgb(136, 148, 209), rgb(25, 34, 80));
+    height: 50px;
+    align-items: center;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.picture {
+    width: 400px;
+}
+
+.picturess {
+    width: 30px;
+}
