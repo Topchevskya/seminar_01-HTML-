@@ -1,14 +1,42 @@
-a.button28 {
-    font-weight: 700;
-    color: rgb(5, 5, 55);
+a {
     text-decoration: none;
 }
 
-a.button28:hover:not(:active) {
+h1 {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+a.button {
+    font-weight: 700;
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+a.button:hover:not(:active) {
     background: linear-gradient(rgb(126, 126, 134), rgb(70, 71, 76)) rgb(126, 126, 134);
 }
 
-a.button28:active {
+a.button:active {
     box-shadow: 0 0 1px rgba(0, 0, 0, .5) inset, 0 2px 3px rgba(0, 0, 0, .5) inset, 0 1px 1px rgba(255, 255, 255, .1);
 }
 
